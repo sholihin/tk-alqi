@@ -1,0 +1,34 @@
+/* CSS Document */
+.link_hover {
+	cursor: pointer;
+	background-color: rgb(204,204,204);
+	border: 1px solid rgb(0,0,0);
+	text-decoration: none;
+	color: rgb(0,0,0);
+}
+.link_hover_merah {
+	cursor: pointer;
+	background-color: rgb(245,196,188);
+	border: 1px solid rgb(0,0,0);
+	text-decoration: none;
+	color: rgb(0,0,0);
+}
+.link_hover_hijau {
+	cursor: pointer;
+	background-color: rgb(237,246,229);
+	border: 1px solid rgb(0,0,0);
+	text-decoration: none;
+	color: rgb(0,0,0);
+}
+
+.link_normal {
+	border: 1px solid rgb(255,255,255);
+}
+.link_normal a:hover {
+	text-decoration: none;
+	color: rgb(0,0,0);
+}
+.link_normal a:link a:visited {
+	text-decoration: underline;
+	color: rgb(0,0,0);
+}

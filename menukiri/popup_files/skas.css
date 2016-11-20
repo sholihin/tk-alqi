@@ -1,0 +1,45 @@
+.style1 {
+	color: #FF0000;
+	font-weight: bold;
+}
+.style2 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.style3 {
+	font-size: 24px;
+	font-style: italic;
+	color: #CCCCCC;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.tab:link {
+	color:#FFFFFF;
+	text-decoration: none;
+	float:inherit;		
+	display:block;	
+}
+.tab:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+	float:inherit;		
+	display:block;	
+}
+.tab:hover {
+	text-decoration:none;
+	color: #FF0000;
+	float:inherit;		
+	display:block;	
+	background-color:#FFFFFF
+}
+.tab:active {
+	text-decoration: none;
+	color: #FFFFFF;
+	float:inherit;		
+	display:block;	
+}
+.style_judul {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+}

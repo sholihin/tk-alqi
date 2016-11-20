@@ -1,0 +1,219 @@
+/*Drop-down menu*/
+.dropdown ul {
+	list-style-type:none;
+}
+.dropdown ul li {
+	float:left;
+	position:relative;
+	z-index:auto !important /*Non-IE6*/;
+	z-index:1000 /*IE6*/;
+	/*border-right:solid 1px rgb(175,175,175);*/
+}
+.dropdown ul li a {
+	float:none !important /*Non-IE6*/;
+	float:left /*IE-6*/;
+	display:block;
+	padding: 5px 9px 5px 10px;
+	text-decoration:none;
+	font-weight:bold;
+	color: rgb(255,255,255);
+}
+.dropdown ul li ul {
+	display:none;
+	border:none;
+}
+
+/*Non-IE6 hovering*/
+.dropdown ul li:hover a {
+	background-color:rgb(210,210,210);
+	color:rgb(50,50,50);
+	text-decoration:none;
+}
+.dropdown ul li:hover ul {
+	display:block;
+	width:14.0em;
+	position:absolute;
+	z-index:999;
+	top:2.05em;
+	margin-top:0.1em;
+	left:0em;
+}
+.dropdown ul li:hover ul li a {
+	display:block;
+	width:14.0em;
+	height:auto;
+	line-height:1.3em;
+	margin-left:-1px;
+	padding: 5px 16px 5px 16px;
+	border-left: solid 1px rgb(54,83,151);
+	border-bottom: solid 1px rgb(54,83,151);
+	border-right: solid 1px rgb(54,83,151);
+	border-top:solid 1px rgb(54,83,151);
+	background-color:rgb(237,237,237);
+	font-weight:normal;
+	font-size:11px;
+	color:rgb(50,50,50);
+}
+.dropdown ul li:hover ul li a:hover {
+	background-color: rgb(127,162,202);
+	text-decoration:none;
+	color: rgb(255,255,255);
+}
+
+/*IE6 hovering*/
+.dropdown table {
+	position:absolute;
+	top:0;
+	left:0;
+	border-collapse:collapse;
+}
+.dropdown ul li a:hover {
+	background-color:rgb(210,210,210);
+	text-decoration:none;
+} /*Color main cells hovering mode*/
+
+.dropdown ul li a:hover ul {
+	display:block;
+	width:9.0em;
+	position:absolute;
+	z-index:999;
+	top:1.53em;
+	t\op:1.53em;
+	left:0;
+	marg\in-top:0.1em;
+}
+.dropdown ul li a:hover ul li a {
+	display:block;
+	w\idth:14.0em; /* lebar kolom drop down */
+	height:1px;
+	line-height:1.3em;
+	padding:4px 8px 4px 8px;
+	border-left:solid 1px rgb(54,83,151);
+	border-bottom: solid 1px rgb(54,83,151);
+	border-right:solid 1px rgb(54,83,151);
+	border-top:solid 1px rgb(54,83,151);
+	background-color:rgb(237,237,237);
+	font-weight:normal;
+	font-size:11px;
+	color:rgb(50,50,50);
+} /*Color subcells normal mode*/
+
+.dropdown ul li a:hover ul li a:hover {
+	background-color: rgb(127,162,202);
+	text-decoration:none;
+	color: rgb(255,255,255);
+} /*Color subcells hovering mode*/
+
+
+/* dropdown mod */
+/*Drop-down menu*/
+.dropdownMod ul {
+	list-style-type:none;
+}
+.dropdownMod ul li {
+	float:left;
+	position:relative;
+	z-index:auto !important /*Non-IE6*/;
+	z-index:1000 /*IE6*/;
+	/*border-right:solid 1px rgb(175,175,175);*/
+}
+.dropdownMod ul li a {
+	float:none !important /*Non-IE6*/;
+	float:left /*IE-6*/;
+	display:block;
+	padding: 5px 10px 5px 10px;
+	text-decoration:none;
+	font-weight:bold;
+	color: rgb(0,0,0);
+	text-align: center;
+	width:80px;
+}
+.dropdownMod ul li ul {
+	display:none;
+	border:none;
+}
+
+/*Non-IE6 hovering*/
+.dropdownMod ul li:hover a {
+	background-color:rgb(210,210,210);
+	color:rgb(50,50,50);
+	text-decoration:none;
+}
+.dropdownMod ul li:hover ul {
+	background-color:rgb(210,210,210);
+	display:block;
+	width:14.0em;
+	position:absolute;
+	z-index:999;
+	top:7.40em;
+	margin-top:0.1em;
+	left:0em;
+}
+.dropdownMod ul li:hover ul li a {
+	display:block;
+	width:14.0em;
+	height:auto;
+	line-height:1.3em;
+	margin-left:-1px;
+	padding: 4px 16px 4px 16px;
+	border-top: solid 1px rgb(54,83,151);
+	border-left: solid 1px rgb(54,83,151);
+	border-bottom: solid 1px rgb(54,83,151);
+	border-right: solid 1px rgb(54,83,151);
+	background-color:rgb(237,237,237);
+	text-align:left;
+	font-size:11px;
+	font-weight:normal;
+	color:rgb(50,50,50);
+}
+.dropdownMod ul li:hover ul li a:hover {
+	background-color: rgb(127,162,202);
+	text-decoration:none;
+	color: rgb(255,255,255);
+}
+
+/*IE6 hovering*/
+.dropdownMod table {
+	font-size: 10px;
+	position:absolute;
+	top:49px;
+	left:0;
+	border-collapse:collapse;
+}
+
+.dropdownMod ul li a:hover {
+	background-color:#FFFFFF;
+	text-decoration:none;
+} /*Color main cells hovering mode*/
+
+.dropdownMod ul li a:hover ul {
+	display:block;
+	width:14.0em;
+	position:absolute;
+	z-index:999;
+	top:3.35em;
+	t\op:3.35em;
+	left:0;
+	marg\in-top:0.1em;
+}
+.dropdownMod ul li a:hover ul li a {
+	display:block;
+	w\idth:14.0em;
+	height:1px;
+	line-height:1.3em;
+	padding:5px 8px 5px 8px;
+	border-left:solid 1px rgb(54,83,151);
+	border-top: solid 1px rgb(54,83,151);
+	border-right:solid 1px rgb(54,83,151);
+	border-bottom: solid 1px rgb(54,83,151);
+	background-color:rgb(237,237,237);
+	text-align:left;
+	font-weight:normal;
+	color:rgb(50,50,50);
+} /*Color subcells normal mode*/
+
+.dropdownMod ul li a:hover ul li a:hover {
+	background-color: rgb(127,162,202);
+	text-decoration:none;
+	color: rgb(255,255,255);
+} /*Color subcells hovering mode*/
