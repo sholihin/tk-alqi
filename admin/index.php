@@ -13,7 +13,7 @@
 	<div class="container_12 clearfix">
 		<div id="logo" class="grid_5">
 			<!-- replace with your website title or logo -->
-			<a id="site-title" href="index.php"><span>PetshopKu</span></a>
+			<a id="site-title" href="index.php"><span>TK Alqi</span></a>
 		</div>
 
 		<div id="userinfo" class="grid_3">
@@ -30,47 +30,45 @@
 <section class="container_12 clearfix" style="margin-top:15px;">
   <?php
     switch ($_GET['module']) {
-        case "password":
-            include "password.php";
+				//siswa
+        case "siswa":
+            include "siswa/index.php";
         break;
-        case "produk":
-            include "produk.php";
+				case "editsiswa":
+            include "siswa/edit.php";
         break;
-        case "kategori":
-            include "category.php";
+
+				//kelompok
+        case "kelompok":
+            include "kelompok/index.php";
         break;
-        case "member":
-            include "member.php";
+				case "editkelompok":
+            include "kelompok/edit.php";
         break;
-        case "pemesanan":
-            include "pemesanan.php";
+
+				//siswa
+        case "program":
+            include "program/program.php";
         break;
-        case "konfirmasi":
-            include "konfirmasi.php";
+				case "editprogram":
+            include "program/editprogram.php";
         break;
+
+				// laporan
+				case "laporan":
+            include "laporan.php";
+        break;
+
+				// config
         case "gantipassword":
             include "gantipassword.php";
         break;
-        case "laporan":
-            include "laporan.php";
+				case "password":
+            include "password.php";
         break;
-        case "editmember":
-            include "editmember.php";
-        break;
-        case "editproduk":
-            include "editproduk.php";
-        break;
-        case "editcategory":
-            include "editcategory.php";
-        break;
-        case "detailtransaksi":
-            include "detailtransaksi.php";
-        break;
-        case "review":
-            include "review.php";
-        break;
-          default:
-            include "dashboard.php";
+
+        default:
+          include "dashboard.php";
     }
   ?>
 
@@ -80,14 +78,11 @@
 			<section>
 				<ul>
 					<li class="garisbawah"><a href="index.php">Home</a></li>
-					<li class="garisbawah"><a href="?module=gantipassword">Ganti Password</a></li>
-					<li class="garisbawah"><a href="?module=produk">Produk</a></li>
-					<li class="garisbawah"><a href="?module=kategori">Kategori</a></li>
-					<li class="garisbawah"><a href="?module=member">Member</a></li>
-					<li class="garisbawah"><a href="?module=pemesanan">Pemesanan Barang</a></li>
-                    <li class="garisbawah"><a href="?module=konfirmasi">Konfirmasi</a></li>
-					<li class="garisbawah"><a href="?module=review">Review Produk</a></li>
+					<li class="garisbawah"><a href="?module=kelompok">Kelompok</a></li>
+					<li class="garisbawah"><a href="?module=siswa">Siswa</a></li>
+					<li class="garisbawah"><a href="?module=program">Program</a></li>
 					<li class="garisbawah"><a href="?module=laporan">Laporan</a></li>
+					<li class="garisbawah"><a href="?module=gantipassword">Ganti Password</a></li>
 				</ul>
 			</section>
 		</div>

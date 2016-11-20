@@ -19,15 +19,9 @@
 			</a>
 		</li>
 		<li>
-			<a href="?module=member">
-				<img src="images/eleganticons/Person-group.png">
-				<span>Member</span>
-			</a>
-		</li>
-		<li>
-			<a href="?module=pemesanan">
+			<a href="?module=pembayaran">
 				<img src="images/eleganticons/Info.png">
-				<span>Pemesanan</span>
+				<span>Pembayaran</span>
 			</a>
 		</li>
 		<li>
