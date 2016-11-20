@@ -54,6 +54,22 @@
             include "program/editprogram.php";
         break;
 
+				//pembayaran
+        case "pembayaran":
+            include "pembayaran/index.php";
+        break;
+				case "editpembayaran":
+            include "pembayaran/edit.php";
+        break;
+
+				//pengeluaran
+        case "pengeluaran":
+            include "pengeluaran/index.php";
+        break;
+				case "editpengeluaran":
+            include "pengeluaran/edit.php";
+        break;
+
 				// laporan
 				case "laporan":
             include "laporan.php";
@@ -81,6 +97,8 @@
 					<li class="garisbawah"><a href="?module=kelompok">Kelompok</a></li>
 					<li class="garisbawah"><a href="?module=siswa">Siswa</a></li>
 					<li class="garisbawah"><a href="?module=program">Program</a></li>
+					<li class="garisbawah"><a href="?module=pembayaran">Pembayaran</a></li>
+					<li class="garisbawah"><a href="?module=pengeluaran">Pengeluaran</a></li>
 					<li class="garisbawah"><a href="?module=laporan">Laporan</a></li>
 					<li class="garisbawah"><a href="?module=gantipassword">Ganti Password</a></li>
 				</ul>
