@@ -6,7 +6,7 @@
 					color:#990000;
 					background-image:url(./images/bg_judul_panjang.png);
 			 		background-repeat:no-repeat;">
-			<h3>TK Kasih Karunia Saat Ini</h3>
+			<h3>TK Islam Alqi Saat Ini</h3>
 			</td>
 		</tr>
 		<tr height="20px">

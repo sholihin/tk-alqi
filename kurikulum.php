@@ -14,7 +14,7 @@
         </tr>
         <tr>
             <td width="100%" align="left">
-                <div align="justify"><span class="style6">KBB dan TK Kristen Kasih karunia, menyajikan program pendidikan sesuai perkembangan daya pikir dan kemampuan berbahasa anak yang dipacu dengan menggunakan berbagai media belajar dan metode mengajar yang bervariasi, seperti : komputer multimedia dan eksperimen.<br>
+                <div align="justify"><span class="style6">KBB dan TK Islam Alqi, menyajikan program pendidikan sesuai perkembangan daya pikir dan kemampuan berbahasa anak yang dipacu dengan menggunakan berbagai media belajar dan metode mengajar yang bervariasi, seperti : komputer multimedia dan eksperimen.<br>
                     - Perkembangan Kemandirian dan kemampuan sosial anak, dilatih melalui berbagai keterampilan psikomotorik, ekspresi dalam seni, karya-karya keterampilan, memasak, mengikutsertakan dalam berbagai perlombaan.<br>
                     - Untuk memperkaya keterampilan berbahasa, sejak dini anak diperkenalkan dengan Bahasa mandarin, Bahasa Inggris di samping Bahasa Indonesia yang berguna sebagai bekal masa depannya. </span><br>                             
                 </div>

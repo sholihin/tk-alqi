@@ -3,10 +3,8 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
         <script type="text/javascript" async="" src="./assets/whoami"></script>
-        <meta name="keywords" content="sekolah,tk,kasih,karunia,kasih karunia,pendidikan,edukasi,profil,alumni,yayasan,yayasan kasih karunia">
-        <meta name="description" content="Website Taman Kanak-kanak (TK) Kasih Karunia">
         <meta name="author" content="primaindisoft">
-        <title>Website Taman Kanak-kanak (TK) Kasih Karunia - Yayasan Pendidikan Kasih Karunia</title>
+        <title>TK Alqi</title>
         <link rel="icon" href="logo.jpg">
         <script language="javascript" type="text/javascript" src="./assets/CekJavaScript.js"></script>
         <script language="javascript" type="text/javascript" src="./assets/CetakTanggal.js"></script>

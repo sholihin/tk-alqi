@@ -22,7 +22,7 @@
                                 <img src="images/logo.png" border="0" style="height: 100px">
                             </td>
                             <td valign="top">
-                                TK Kasih Karunia                                            <br>
+                                TK Islam Alqi                                           <br>
                                 <br>
                             </td>
                         </tr>

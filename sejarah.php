@@ -14,9 +14,9 @@
         </tr>
         <tr>
             <td width="100%" align="left">  <span class="style6 style4">
-                TK Kasih Karunia terletak di Perumahan Taman Surya Blok RR No.1 <br>
+                TK Islam Alqi terletak di Perumahan Taman Surya Blok RR No.1 <br>
                 Telp : 021-70350520 dan 021-91262008 <br>
-                Berada di bawah naungan Yayasan Pendidikan Kasih Karunia </span>
+                Berada di bawah naungan Yayasan Pendidikan Islam Alqi </span>
             </td>
         </tr>
     </tbody>

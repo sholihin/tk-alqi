@@ -15,7 +15,7 @@
         <tr>
             <td width="100%" align="left">
                 <!-- isi konten berada diantara tanda ini.... //-->
-                <span class="style6">Pendaftaran siswa baru TK Kasih Karunia <br>
+                <span class="style6">Pendaftaran siswa baru TK Islam Alqi <br>
                 Mulai 1 Februari 2008 s/d 30 Mei 2008</span><br>
                 <!-- isi kontent sampai di sini aja..... //-->                            
             </td>

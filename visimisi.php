@@ -38,7 +38,7 @@
                                         </tr>
                                         <tr>
                                             <td>3.</td>
-                                            <td>Mengembangkan karakter anak berlandaskan iman kristiani</td>
+                                            <td>Mengembangkan karakter anak berlandaskan iman islam</td>
                                         </tr>
                                     </tbody>
                                 </table>
