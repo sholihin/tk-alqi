@@ -34,7 +34,7 @@
           <th>Nominal</th>
           <th>Keterangan</th>
           <th>Tanggal</th>
-          <th width="100px">Aksi</th>
+          <!-- <th width="100px">Aksi</th> -->
         </tr>
       </thead>
       <tbody class="ui-sortable">
@@ -47,10 +47,10 @@
           <td><?php echo $data['nominal']; ?></td>
           <td><?php echo $data['keterangan']; ?></td>
           <td><?php echo $data['tanggal_pengeluaran']; ?></td>
-          <td>
+          <!-- <td>
              <a href="?module=editpengeluaran&id=<?php echo $data['pengeluaran_id']; ?>" title="Edit"><img src="images/icons/edit.png" alt="Edit"></a> |
              <a href="pengeluaran/delete.php?id=<?php echo $data['pengeluaran_id']; ?>" title="Hapus"><img src="images/icons/cross.png" alt="Delete"></a>
-          </td>
+          </td> -->
         </tr>
         <?php } ?>
       </tbody>
