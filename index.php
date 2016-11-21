@@ -5,7 +5,6 @@
         <script type="text/javascript" async="" src="./assets/whoami"></script>
         <meta name="author" content="primaindisoft">
         <title>TK Alqi</title>
-        <link rel="icon" href="logo.jpg">
         <script language="javascript" type="text/javascript" src="./assets/CekJavaScript.js"></script>
         <script language="javascript" type="text/javascript" src="./assets/CetakTanggal.js"></script>
         <script language="javascript" type="text/javascript" src="./assets/standards.js"></script>
@@ -15,7 +14,6 @@
         <link rel="stylesheet" type="text/css" media="screen,projection" href="./assets/style_screen.css">
         <link rel="stylesheet" type="text/css" media="screen,projection" href="./assets/dropdown.css">
         <link rel="stylesheet" type="text/css" media="screen,projection" href="./assets/link_pointer.css">
-        <link rel="icon" type="image/x-icon" href="images/logo/icon_logo_sekolah.png">
         <!--[if IE]>
         <style type="text/css">body {word-wrap: break-word;}</style>
         <![endif]-->
@@ -58,7 +56,7 @@
                                     <td colspan="2" valign="middle" background="./assets/bg1.png" height="94">
                                         <div style="padding: 5px 10px 0pt 23px; color: rgb(255, 255, 255);
                                             font-size:10px; color:#AE2300">
-                                            Tidak ada simpanan yang lebih berguna daripada ilmu.					
+                                            Tidak ada simpanan yang lebih berguna daripada ilmu.
                                         </div>
                                     </td>
                                 </tr>
@@ -136,14 +134,14 @@
                                 <p class="subtext">Ekskul</p>
                             </li>
                         </ul>
-                        <?php 
+                        <?php
                             $link = $_GET['mods'];
                             switch ($link) {
 
                                 // menu 1
                                 case 'hariini':
                                     include('hariini.php');
-                                    break; 
+                                    break;
                                 case 'visimisi':
                                     include('visimisi.php');
                                     break;
