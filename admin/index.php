@@ -99,7 +99,7 @@
 					<li class="garisbawah"><a href="?module=program">Program</a></li>
 					<li class="garisbawah"><a href="?module=pembayaran">Pembayaran</a></li>
 					<li class="garisbawah"><a href="?module=pengeluaran">Pengeluaran</a></li>
-					<li class="garisbawah"><a href="?module=laporan">Laporan</a></li>
+					<!-- <li class="garisbawah"><a href="?module=laporan">Laporan</a></li> -->
 					<li class="garisbawah"><a href="?module=gantipassword">Ganti Password</a></li>
 				</ul>
 			</section>
