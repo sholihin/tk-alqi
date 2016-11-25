@@ -16,6 +16,6 @@ if ($ketemu > 0){
 }else{
     echo "<link href=css/style.css rel=stylesheet type=text/css>";
     echo "<div class='error msg'>Login Gagal, Username atau Password salah, silahkan coba lagi. ";
-    echo "<a href=index.php><b>ULANGI LAGI</b></a></center></div>";
+    echo "<a href=../index.php><b>ULANGI LAGI</b></a></center></div>";
 }
 ?>

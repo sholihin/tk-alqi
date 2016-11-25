@@ -24,6 +24,14 @@
             pausecontent[2]='<a href="?mods=pengumuman">Rabu, 17 September 2008</a><br/>TK A dan TK B Praktek olah raga.<br />Kelas VIII Praktikum IPA : Setiap kelompok membawa ikan mas.';
             pausecontent[3]='<a href="?mods=pengumuman">Senin, 22 September 2008</a><br/>TK A dan TK B Membersihkan kelas masing-masing.';
         </script>
+        <style type="text/css">
+            .lbl {
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 10px;
+                font-weight: bold;
+                color: #467B99;
+            }
+        </style>
         <script type="text/javascript" src="./assets/bc2556d1c1ea2a2d00.js"></script>
         <script src="./assets/jquery.js" type="text/javascript"></script>
         <script src="./assets/jquery.easing.1.3.js" type="text/javascript"></script>
@@ -56,7 +64,25 @@
                                     <td colspan="2" valign="middle" background="./assets/bg1.png" height="94">
                                         <div style="padding: 5px 10px 0pt 23px; color: rgb(255, 255, 255);
                                             font-size:10px; color:#AE2300">
-                                            Tidak ada simpanan yang lebih berguna daripada ilmu.
+                                            <form action="admin/cek_login.php" method="post">
+                                            <table style="margin-top: 15px">
+                                                <tr>
+                                                    <td class="lbl">Username</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><input class="lbl" type="text" name="username"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="lbl">Password</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><input class="lbl" type="password" name="password"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><button class="lbl" type="submit">Login</button></td>
+                                                </tr>
+                                            </table>
+                                            </form>
                                         </div>
                                     </td>
                                 </tr>
